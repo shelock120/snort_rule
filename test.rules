@@ -8,7 +8,12 @@ alert tls any any -> 125.209.222.141 443 (msg : "naver.com detected"; sid:10006;
 alert tls any any -> 210.89.160.88 443 (msg : "naver.com detected"; sid:10007;)
 alert tls any any -> 210.89.164.90 443 (msg : "naver.com detected"; sid:10008;)
 
-alert tls any any -> 104.244.42.65 443 (msg : "twitter.com detected"; sid:10009;)
-alert tls any any -> 104.244.42.1 443 (msg : "twitter.com detected"; sid:10010;)
+alert tls any any -> 104.244.42.65 443 (msg : "twitter.com detected"; sid:10109;)
+alert tls any any -> 104.244.42.1 443 (msg : "twitter.com detected"; sid:10110;)
+alert tls any any -> 104.244.42.129 443 (msg : "twitter.com detected"; sid:10111;)
+alert tls any any -> 104.244.42.193 443 (msg : "twitter.com detected"; sid:10111;)
 
-alert tls any any -> 31.13.95.36 443 (msg : "facebook.com detected"; sid:10011;)
+alert tls any any -> 31.13.95.36 443 (msg : "facebook.com detected"; sid:10211;)
+alert tls any any -> 157.240.15.35 443 (msg : "facebook.com detected"; sid:10212;)
+alert tls any any -> 31.13.82.36 443 (msg : "facebook.com detected"; sid:10213;)
+alert tls any any -> 157.240.22.35 443 (msg : "facebook.com detected"; sid:10213;)
